@@ -1,0 +1,21 @@
+<div class="control-section dropdowntree-local" *ngIf="listfields">
+  <div class="content-wrapper">
+    <div id="remote" class="col-lg-6" style="margin: 0 auto;padding-top: 25px;">
+      <div style="width: 350px;margin: 0 auto;">
+        <h4>List Data</h4>
+        <ejs-dropdowntree
+          allowMultiSelection="true"
+          allowFiltering="true"
+          showCheckBox="true"
+          id="ddtlist"
+          [fields]="listfields"
+          [mode]="mode"
+          showSelectAll="true"
+          popupHeight="350px"
+          placeholder="Select an item"
+        >
+        </ejs-dropdowntree>
+      </div>
+    </div>
+  </div>
+</div>
